@@ -42,9 +42,8 @@ const zoesRoll = personalDice("Zoe");
 var addSix = createBase(6)
 
 function createBase(a){
-    const number=a
     return function(b){
-        return number+b
+        return a+b
     }
 }
 
